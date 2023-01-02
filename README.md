@@ -10,7 +10,7 @@ L'ensemble du codes sources utilisés dans ce chapitre est accompagné de son [i
 Celle-ci peut être utilisée pour vous éviter de télécharger les dépendances nécessaires à ce chapitre. Vous pouvez la récupérer avec la commande suivante :
 
 ```
-docker pull thomasfaria/quarterly_gfs_revisions
+docker pull thomasfaria/dt-rn-chapitre4
 ```
 
 Il vous est également possible de télécharger les dépendances localement en utilisant le fichier *requirements.txt*, à l'aide de la commande ```pip install -r requirements.txt```.
