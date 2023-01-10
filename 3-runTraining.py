@@ -45,7 +45,6 @@ losses, encoder, autoencoder, model = TrainAE.AE(
 
 epochs = 50
 batch_size = 25
-optimizer = RMSprop()
 loss = "mse"
 activations = ["relu", "relu", "relu", "sigmoid"]
 encoded_layer = 5
@@ -99,14 +98,14 @@ for seuil in ["None"]:
     ):
 
         DimensionEncoder = int(X_train.shape[1] * dim_encod)
-        print("\nRunning AE...")
+        print("\nTraining AE...")
         dimensions = [X_train.shape[1], 250, DimensionEncoder, 250, X_train.shape[1]]
         losses, encoder, history, Autoencoder = TrainAE.AE(
             X_train,
             X_validation,
             epochs,
             batch_size,
-            optimizer,
+            RMSprop(),
             loss,
             dimensions,
             activations,

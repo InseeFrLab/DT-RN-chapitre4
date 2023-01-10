@@ -3,7 +3,9 @@ from sklearn.preprocessing import MinMaxScaler
 import preprocessing.preprocessing as prep
 import json
 import numpy as np
+import warnings
 
+warnings.filterwarnings(action='ignore', message='All-NaN slice encountered')    
 
 DataPath = "./data/DatasetFromSDW.csv"
 Dataset = pd.read_csv(DataPath)

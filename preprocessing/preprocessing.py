@@ -1,20 +1,11 @@
-from typing import DefaultDict
 import pandas as pd
 import numpy as np
-from collections import defaultdict, Counter
 import random
 import pickle
 from functools import reduce
-from sklearn.model_selection import train_test_split
 from tqdm.notebook import tqdm
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
-import json
+from sklearn.preprocessing import MinMaxScaler
 from pathlib import Path
-
-# SCRIPT:
-
-# Data :
-
 
 def charge_df(filepath):
     """
