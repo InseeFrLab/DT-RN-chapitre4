@@ -7,6 +7,7 @@ from tqdm.notebook import tqdm
 from sklearn.preprocessing import MinMaxScaler
 from pathlib import Path
 
+
 def charge_df(filepath):
     """
     This function aims to open a csv file as a pandas dataframe.
