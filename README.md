@@ -34,3 +34,5 @@ Le code se divise en 4 scripts distincts :
 - [2-runPreprocessing.py](https://github.com/ThomasFaria/DT-RN-chapitre4/blob/main/2-runPreprocessing.py) : Cette partie définit tout d'abord le type de variables (catégorielle ou numérique). Elle procède ensuite à la préparation de la base de données en imputant les données manquantes, en ajustant l'échelle des données et en divisant les données en 3 sous-échantillons (*train*, *test*, *validation*).
 - [3-runTraining.py](https://github.com/ThomasFaria/DT-RN-chapitre4/blob/main/3-runTraining.py) : Ce script définit les hyper-paramètres de l'autoencoder et procède à son estimation. On présente également une solution pour enregistrer les résultats en fonction des paramètres spécifiés.
 - [4-runACP.py](https://github.com/ThomasFaria/DT-RN-chapitre4/blob/main/4-runACP.py) : Ce code réplique le travail effectué par le script précédent, en utilisant cette fois un algorithme d'Analyse par Composantes Principales (ACP) afin d'en comparer les performances.
+
+Les codes ont été écrits par [Thomas Faria](https://github.com/ThomasFaria) (Insee).
